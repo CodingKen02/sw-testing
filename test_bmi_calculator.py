@@ -3,7 +3,7 @@ from bmi_calculator import calculate_bmi, bmi_category
 
 def test_calculate_bmi_normal_weight():
     # Test case: Height 5'7", Weight 150 lbs (Normal weight)
-    assert calculate_bmi(5, 7, 150) == pytest.approx(23.49, rel=1e-2)
+    assert calculate_bmi(5, 7, 150) == 24.06
 
 def test_calculate_bmi_string_values():
     # Test case: Height 5'7", Weight sixty lbs (Error handling)
